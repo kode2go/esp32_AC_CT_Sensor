@@ -1,3 +1,14 @@
+# Specification
+
+Esp32 + Relay + CT Sensor to switch pump on and off if current if power is > 2000W
+- should measure battery capacity too to switch off at 40%
+- would still allow geyser to be on at same time
+- LED showing batt capacity - ie connection established (change interval to 2 seconds)
+- LED showing pump on (solid blue) - else off
+- LED showing Wattage exceeded (need another LED!!!)
+- power, custom?, or plug in power with phone charge
+...ultimately want to change setup for geyser too
+
 # Circuit
 
 Cap: 10uf
@@ -65,6 +76,12 @@ Timestamp: 39 s - The Current RMS value is: 2.60 A
 Timestamp: 39 s - The Current RMS value is: 2.62 A
 ```
 
-1.6kw Timestamp: 35 s - The Current RMS value is: 1.45 A
+Now when i solderd and glue gunned:
 
-0.8kw Timestamp: 50 s - The Current RMS value is: 0.09 A
+1.6kw:
+
+Timestamp: 286 s - The Current RMS value is: 2.00 A
+
+0.8kW:
+
+Timestamp: 297 s - The Current RMS value is: 0.73 A
