@@ -1,4 +1,4 @@
-# Cicruit
+# Circuit
 
 Cap: 10uf
 
@@ -16,6 +16,17 @@ GPIO 34:
 
 <img width="276" height="396" alt="image" src="https://github.com/user-attachments/assets/5ff1a159-8813-41a4-a244-8e4516a331f5" />
 
+<img width="561" height="387" alt="image" src="https://github.com/user-attachments/assets/4dc4fda1-016d-41eb-8f30-c573b23a94da" />
+
+<img width="292" height="397" alt="image" src="https://github.com/user-attachments/assets/e697d7f6-dd42-4389-b515-86e22ac1c27f" />
+
+<img width="335" height="300" alt="image" src="https://github.com/user-attachments/assets/4fe04c50-3ff9-416f-bdd6-24bf901eb414" />
+
+
+
+## Build Obserations
+
+Twisting wires seems to flucate the results connections are may not so good?
 
 Reference:
 
