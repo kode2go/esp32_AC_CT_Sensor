@@ -43,6 +43,7 @@ Vpp 0.95
 
 # Output
 
+2kw:
 ```
 Timestamp: 38 s - The Current RMS value is: 2.64 A
 Timestamp: 38 s - The Current RMS value is: 2.61 A
@@ -52,3 +53,7 @@ Timestamp: 38 s - The Current RMS value is: 2.63 A
 Timestamp: 39 s - The Current RMS value is: 2.60 A
 Timestamp: 39 s - The Current RMS value is: 2.62 A
 ```
+
+1.6kw Timestamp: 35 s - The Current RMS value is: 1.45 A
+
+0.8kw Timestamp: 50 s - The Current RMS value is: 0.09 A
