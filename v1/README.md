@@ -2,6 +2,8 @@
 
 Cap: 10uf
 
+Res: 10k
+
 <img width="944" height="648" alt="image" src="https://github.com/user-attachments/assets/ce665308-714a-48bb-8514-9c5c81d5b1f1" />
 
 Reference:
@@ -20,14 +22,17 @@ https://simplyexplained.com/blog/Home-Energy-Monitor-ESP32-CT-Sensor-Emonlib/
 <img width="582" height="387" alt="image" src="https://github.com/user-attachments/assets/f9cfe10f-29a5-4562-bd32-0f7533834ac1" />
 
 
+```
 Vmax 1.37
 Vmin 0.42
 Vave 0.93 
 Vrms 0.98
 Vpp 0.95
+```
 
 # Output
 
+```
 Timestamp: 38 s - The Current RMS value is: 2.64 A
 Timestamp: 38 s - The Current RMS value is: 2.61 A
 Timestamp: 38 s - The Current RMS value is: 2.61 A
@@ -35,3 +40,4 @@ Timestamp: 38 s - The Current RMS value is: 2.65 A
 Timestamp: 38 s - The Current RMS value is: 2.63 A
 Timestamp: 39 s - The Current RMS value is: 2.60 A
 Timestamp: 39 s - The Current RMS value is: 2.62 A
+```
