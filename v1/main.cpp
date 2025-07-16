@@ -1,6 +1,8 @@
 // AC & DC Current Sensor for ESP32
 #include <Arduino.h>
 
+#define LED_PIN 2
+
 int decimalPrecision = 2;
 int currentAnalogInputPin = 34;  // GPIO34 (ADC1_CHANNEL_6) for current sensor (A1)
 int calibrationPin = 32;         // GPIO32 (ADC1_CHANNEL_4) for calibration (A2)
@@ -19,12 +21,17 @@ float FinalRMSCurrent;
 unsigned long previousMillis = 0;
 const long interval = 100;  // Print every 100 milliseconds (0.1 second)
 
+unsigned long previousMillisLED = 0;  // Track time for LED blink
+const long ledInterval = 1000;  // Blink LED every 1 second
+int ledPin = 13;  // GPIO13 pin for the LED
+
 float smoothingFactor = 0.1;  // Smoothing factor for current readings
 static float smoothedRMS = 0;
 
 void setup() {
   Serial.begin(115200);  // Initialize serial communication with 115200 baud rate
 
+  pinMode(LED_PIN, OUTPUT);
   // Configure ADC characteristics
   analogReadResolution(12); // ESP32 default ADC resolution is 12 bits (0-4095)
   analogSetAttenuation(ADC_0db); // Default is 0dB, this gives a range of 0-3.3V
@@ -64,5 +71,12 @@ void loop() {
       currentSampleSum = 0;
       currentSampleCount = 0;
     }
+  }
+
+    // LED Blink Logic
+  unsigned long currentMillisLED = millis();
+  if (currentMillisLED - previousMillisLED >= ledInterval) {  // Check if 1 second has passed
+    previousMillisLED = currentMillisLED;  // Update the time for the next cycle
+    digitalWrite(LED_PIN, !digitalRead(LED_PIN));  // Toggle the LED (ON/OFF)
   }
 }
