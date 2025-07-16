@@ -6,6 +6,17 @@ Res: 10k
 
 <img width="944" height="648" alt="image" src="https://github.com/user-attachments/assets/ce665308-714a-48bb-8514-9c5c81d5b1f1" />
 
+<img width="1106" height="380" alt="image" src="https://github.com/user-attachments/assets/9b313f6e-15a0-4dc3-9aee-3e70211eff2f" />
+
+<img width="961" height="369" alt="image" src="https://github.com/user-attachments/assets/ca1c7b7b-c52c-4bd4-8737-65ff6a03ad1f" />
+
+<img width="339" height="283" alt="image" src="https://github.com/user-attachments/assets/806a3660-10a3-46b0-8ef6-f88c836dc71a" />
+
+GPIO 34:
+
+<img width="276" height="396" alt="image" src="https://github.com/user-attachments/assets/5ff1a159-8813-41a4-a244-8e4516a331f5" />
+
+
 Reference:
 
 https://simplyexplained.com/blog/Home-Energy-Monitor-ESP32-CT-Sensor-Emonlib/
