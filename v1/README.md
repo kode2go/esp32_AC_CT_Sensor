@@ -11,6 +11,18 @@ Esp32 + Relay + CT Sensor to switch pump on and off if current if power is > 200
 
 # Circuit
 
+## Relay
+
+Using D5 as switching Pin
+
+Need extra 3.3v, will need to extend
+
+VIN - 5v does not work
+
+Using GPIO4 - not enough current
+
+## CT Sensor
+
 Cap: 10uf
 
 Res: 10k
