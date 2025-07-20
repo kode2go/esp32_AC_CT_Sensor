@@ -9,6 +9,13 @@ Esp32 + Relay + CT Sensor to switch pump on and off if current if power is > 200
 - power, custom?, or plug in power with phone charge
 ...ultimately want to change setup for geyser too
 
+# Blynk
+
+Track Current
+Track on/off status
+
+Control switch as well?
+
 # Circuit
 
 ## Relay
