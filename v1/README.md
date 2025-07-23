@@ -1,3 +1,8 @@
+# Final Housing
+
+<img width="542" height="743" alt="image" src="https://github.com/user-attachments/assets/f3541142-33ad-41b3-a93c-1d68e3f1255c" />
+
+
 # Specification
 
 Esp32 + Relay + CT Sensor to switch pump on and off if current if power is > 2000W
